@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practice", "practice\practice.vcxproj", "{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OMOK", "OMOK\OMOK.vdproj", "{C03217A5-FF2E-4CB3-97C7-1C0EB9E63601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Debug|x64.ActiveCfg = Debug|x64
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Debug|x64.Build.0 = Debug|x64
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Debug|x86.Build.0 = Debug|Win32
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Release|x64.ActiveCfg = Release|x64
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Release|x64.Build.0 = Release|x64
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Release|x86.ActiveCfg = Release|Win32
+		{2E9B5A95-128E-4B30-8A62-BFB7CD50F353}.Release|x86.Build.0 = Release|Win32
+		{C03217A5-FF2E-4CB3-97C7-1C0EB9E63601}.Debug|x64.ActiveCfg = Debug
+		{C03217A5-FF2E-4CB3-97C7-1C0EB9E63601}.Debug|x86.ActiveCfg = Debug
+		{C03217A5-FF2E-4CB3-97C7-1C0EB9E63601}.Release|x64.ActiveCfg = Release
+		{C03217A5-FF2E-4CB3-97C7-1C0EB9E63601}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADB43080-9A60-4309-9590-6E088ED2E0F9}
+	EndGlobalSection
+EndGlobal

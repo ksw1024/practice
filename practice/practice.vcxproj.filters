@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{690d0cfa-b9a2-4f9b-9e53-a41e039ba18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01. Core">
+      <UniqueIdentifier>{27d1fcd8-797f-4581-9c73-caa401abb65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Event">
+      <UniqueIdentifier>{ad898cbe-6fa5-466a-9903-b215f6ef8891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. KeyManager">
+      <UniqueIdentifier>{e74ddcb4-2efc-443c-aa9a-460253029384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. SenceManager">
+      <UniqueIdentifier>{c190c90d-1160-40f5-9b5e-86b888dc9bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. SenceManager\4-1. Square">
+      <UniqueIdentifier>{13566a61-b659-4b20-b395-bbafe87abcb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. SenceManager\4-2. Paint">
+      <UniqueIdentifier>{4549c9a3-39e8-43ca-b58f-c5b25399173e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. SenceManager\Sence">
+      <UniqueIdentifier>{34a60b31-ee31-426e-9a43-9d754af4e7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Computer">
+      <UniqueIdentifier>{ef1e2eb6-e85f-466d-8b3e-a44f1fc0d3f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="practice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Engine\01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Engine\02. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Engine\03. KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>Engine\04. SenceManager\4-2. Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Engine\04. SenceManager\4-1. Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Sence.h">
+      <Filter>Engine\04. SenceManager\Sence</Filter>
+    </ClInclude>
+    <ClInclude Include="OmokAI.h">
+      <Filter>Engine\05. Computer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="practice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Engine\01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Engine\02. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Engine\03. KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>Engine\04. SenceManager\4-2. Paint</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Engine\04. SenceManager\4-1. Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Sence.cpp">
+      <Filter>Engine\04. SenceManager\Sence</Filter>
+    </ClCompile>
+    <ClCompile Include="OmokAI.cpp">
+      <Filter>Engine\05. Computer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="practice.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="practice.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
